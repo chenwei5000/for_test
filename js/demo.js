@@ -1,7 +1,7 @@
 var num = 10;
 
 
-// 新同事封装了一些功能
-function $(str) {
-    return document.querySelector(str)
+// 这是新添加的一些公共的组件
+function getDom(s) {
+    return document.querySelector(s)
 }
